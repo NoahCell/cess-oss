@@ -17,6 +17,8 @@
 package node
 
 func (n *Node) addRoute() {
+	n.Handle.POST("/sign", n.signHandle)
+
 	n.Handle.POST("/auth", n.authHandle)
 
 	n.Handle.PUT("/:name", n.putHandle)

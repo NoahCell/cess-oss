@@ -1,5 +1,4 @@
 ## ide
-.vscode
 .idea
 .vs
 .DS_Store
@@ -28,4 +27,5 @@ oss*
 *.a
 
 ## config file
-conf.toml
+# conf.toml
+/temp
